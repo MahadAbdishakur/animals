@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap')
+
+body {
+    font-family: 'Sedan', serif; 
+    margin: 0;
+    padding: 0;
+	background-color: #1B4332;
+}
+
+h1 {
+    font-family: 'Sedan', serif;
+    text-align: center;
+    font-size: 4em;
+    color: #1B4332;
+}
+
+h2 {
+     font-family: "Satisfy", cursive;
+    font-weight: 500;
+    color: white;
+}
+
+blockquote{
+     font-family: "Satisfy", cursive;
+    font-weight: 500;
+    color: white;
+	 background-color: gray;
+	 border-left: 10px solid gray;
+	 padding: 30px;
+}
+
+.hero {
+
+    background-color: #1B4332; 
+    color: white;
+    padding: 100px 0;
+}
+
+nav {
+	text-align: center;
+	list-style-type: none;
+	font-size: 1.2em;
+	margin-right: 10px;
+    width: 100%;
+    background-color: white; 
+    border-top: 2px solid white;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+header{
+	background-color:#593F2B;
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #0047ab;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px;
+    background-color: #593F2B;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block; 
+}

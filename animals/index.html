@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Photography Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+</head>
+<body>
+
+<header class="header">
+    <div class="container text-center">
+        <h1>Animal Photography</h1>
+    </div>
+</header>
+
+<nav>
+    <div class="container">
+	<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="photo.html">Photos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+    </div>
+</nav>
+
+
+<section class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="img-fluid" src="images/frog.jpg" width="1200px" height="400px" alt=""> 
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-2 text-center">
+                <i class="fas fa-camera fa-3x"></i>
+            </div>
+            <div class="col-sm-10">
+                <blockquote>This animal photo website, created by an avid animal lover, showcases stunning photographs capturing the beauty and essence of wildlife. From majestic landscapes to intimate portraits of animals in their natural habitats, every image tells a unique story of the animal kingdom. Through patience and passion, the photographer captures fleeting moments, emphasizing the importance of conservation and appreciation for the natural world. Explore captivating photos of diverse species and immerse yourself in the wonder of nature through the lens of this dedicated animal enthusiast.</blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+<main>
+<div class="gallery">
+
+    <div class="preview">
+        <img id="preview" src="images/lizard.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+    </div>
+
+    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/bison.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/deer.jpg" alt=""  />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/eagle.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/fox.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/frog.jpg" alt=""  />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/hog.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/otter.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/rabbit.jpg" alt="" />
+		<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/sheep.jpg" alt="" />
+		<img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/spider.jpg" alt="" />
+		<img onclick="document.getElementById('preview').src = document.getElementById('img11').src;" id="img11" src="images/turtle.jpg" alt="" />
+    </div>
+    
+</div>
+
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h5>Connect with Us</h5>
+                <p>Follow us on social media:</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+           
+			 <div class="col-sm-4">
+                <h5>Animal Photography is a website exercise on image galleries available on WebDevStudents.com. The images are royalty-free photos from pixabay.com. JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.	</h5>
+            </div>
+            <div class="col-sm-4">
+                <h5>Contact Us</h5>
+                <p>Email: info@example.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
